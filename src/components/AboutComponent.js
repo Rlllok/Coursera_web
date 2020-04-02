@@ -7,7 +7,7 @@ function About(props) {
     const leaders = props.leader.map((leader) => {
         return (
             <RenderLeader leader={leader} />
-        );
+        );  
     });
 
     function RenderLeader({leader}) {
